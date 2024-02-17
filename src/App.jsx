@@ -17,11 +17,28 @@ import Logout from "./pages/Logout"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route exact path="/" element={<RootLayout />}>
-      <Route exact path="/login" element={<Login />} />
-      <Route path="/home" element={<Home />} />
-      <Route path="/cart" element={<Cart />} />
-      <Route path="/logout" element={<Logout />} />
+    <Route
+      exact
+      path="willowy-entremet-fca434.netlify.app/"
+      element={<RootLayout />}
+    >
+      <Route
+        exact
+        path="willowy-entremet-fca434.netlify.app/login"
+        element={<Login />}
+      />
+      <Route
+        path="willowy-entremet-fca434.netlify.app/home"
+        element={<Home />}
+      />
+      <Route
+        path="willowy-entremet-fca434.netlify.app/cart"
+        element={<Cart />}
+      />
+      <Route
+        path="willowy-entremet-fca434.netlify.app/logout"
+        element={<Logout />}
+      />
     </Route>
     // <Route>
     //   <Route exact path="/" element={<RootLayout />} />
