@@ -35,25 +35,25 @@ const RootLayout = () => {
         <div className="nav-items">
           <ul>
             <li className="nav-item">
-              <NavLink to="willowy-entremet-fca434.netlify.app/home">
+              <NavLink to="/home">
                 Home
               </NavLink>
             </li>
 
             <li className="nav-item">
               {tempToken ? (
-                <NavLink to="willowy-entremet-fca434.netlify.app/logout">
+                <NavLink to="/logout">
                   Logout
                 </NavLink>
               ) : (
-                <NavLink to="willowy-entremet-fca434.netlify.app/login">
+                <NavLink to="/login">
                   Login
                 </NavLink>
               )}
             </li>
             {tempToken && (
               <li>
-                <NavLink to="willowy-entremet-fca434.netlify.app/cart">
+                <NavLink to="/cart">
                   <div className="nav-item-cart">
                     <span>
                       <FaShoppingCart />
