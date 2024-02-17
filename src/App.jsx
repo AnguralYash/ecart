@@ -19,24 +19,24 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route
       exact
-      path="willowy-entremet-fca434.netlify.app/"
+      path="/"
       element={<RootLayout />}
     >
       <Route
         exact
-        path="willowy-entremet-fca434.netlify.app/login"
+        path="/login"
         element={<Login />}
       />
       <Route
-        path="willowy-entremet-fca434.netlify.app/home"
+        path="/home"
         element={<Home />}
       />
       <Route
-        path="willowy-entremet-fca434.netlify.app/cart"
+        path="/cart"
         element={<Cart />}
       />
       <Route
-        path="willowy-entremet-fca434.netlify.app/logout"
+        path="/logout"
         element={<Logout />}
       />
     </Route>
